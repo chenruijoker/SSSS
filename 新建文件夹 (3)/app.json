@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "one",
+      "iconPath": "o.icon",
+      "selectedIconPath": "selectedIconPath"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "oe",
+      "iconPath": "iconPath",
+      "selectedIconPath": "selectedIconPath"
+    }
+    ]
+  }
+}
